@@ -26,7 +26,7 @@ namespace ConsoleApp20
         }
     }
 }
- */ Correction
+ /* Correction
  foreach (int i in Enum.GetValues(typeof(week))) ----> Permet d'afficher les valeurs indices de l'énumération 0,1,2,3...
  foreach (string i in Enum.GetNames(typeof(week))) // Permet d'afficher les constantes de l'énumération
             {
@@ -37,4 +37,4 @@ namespace ConsoleApp20
             week me = week.mercredi;
             Console.WriteLine(lu);
             Console.WriteLine(ma);
-            Console.WriteLine(me); /*
+            Console.WriteLine(me); */
